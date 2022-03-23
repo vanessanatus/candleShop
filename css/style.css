@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, #d7d6d870, rgba(170, 167, 167, 0.329)) , url('../img/img4.jpeg');
+    background-size: cover;
+    height: 560px;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -5rem;  
+}
+
+.intro-image__text a {
+    background-color: #5e513dd5;
+    border: 2px solid #4e4332c5;
+    color: #dedbd5;
+    display: inline-block;
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+    
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.2);
+}
+
+
+.intro-text {
+    background-color: #687b79;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    clip-path: polygon(50% 13%, 100% 0, 100% 100%, 48% 100%, 0 100%, 0 0);
+
+}
+
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url(../img/img2.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -5rem;
+}
+
+.packaging-image__text a {
+    background-color: #b29d86cb;
+    border: 2px solid #94816c;
+    color: #331f10;
+    display: inline-block;
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+}
+
+
+.packaging-text {
+    background-color: #e0d7c6;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(50% 13%, 100% 0, 100% 100%, 48% 100%, 0 100%, 0 0);
+
+    
+}
+
+.packaging_text__textbox h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url(../img/img1.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    background-color: #67604bc9;
+    border: 2px solid #524c3bb9;
+    color: #cebca6;
+    display: inline-block;
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    background-color: #5e5741c9;
+    height: 100px;
+    color: #dedbd5;
+    font-size: 1.5rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #dedbd5;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    transform: scale(1.2);
+}
